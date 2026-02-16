@@ -1,8 +1,10 @@
 export class Student {
-    firstname: string = ""
-    lastname: string = ""
+    firstname: string = ''
+    lastname: string = ''
 
     printName(){
-        return this.firstname.concat(this.lastname);
+        let fullname: string = this.firstname.concat(' ');
+        return fullname.concat(this.lastname);
+    
     }
 }
