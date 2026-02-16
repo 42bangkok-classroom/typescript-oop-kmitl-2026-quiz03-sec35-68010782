@@ -3,8 +3,6 @@ export class Student {
     lastname: string = ""
 
     printName(){
-        let fullname: string = this.firstname.concat(" ",this.lastname)
-        return fullname
-
+        return this.firstname.concat(" ",this.lastname)
     }
 }
